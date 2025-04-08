@@ -47,7 +47,7 @@ def print_report(list, word_count, path):
     print()
 
     for entry in list:
-        if not entry["char"].isalpha():
+        if not entry["letter"].isalpha():
             continue
         print(f"The '{entry["letter"]}' character was found {entry["num"]} times")
 
